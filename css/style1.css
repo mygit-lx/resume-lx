@@ -89,7 +89,7 @@ a:focus {
 	font-weight:600;
 	  font-style: italic;
 }
-.work,.education {
+.work {
   border-left: 11px solid #11DADA;
 }
 .work {
@@ -161,43 +161,53 @@ a:focus {
 }
 .sub h5{
 	float:left;
-	width:35%;
+	width:55%;
 	color:#333;
 	font-size:1.1em;
 	font-weight:500;
 	display:inline-block;
 }
-.progressy1,.progressy2,.progressy3,.progressy4,.progressy6,.progressy7{
-	width:30%;
-	float:left;
+.progressy1,.progressy2,.progressy3,.progressy4,.progressy5,.progressy6,.progressy7{
+	width:40%;
+	float:right;
 }
-.progressy1,.progressy2,.progressy3,.progressy4,.progressy6,.progressy7{
+.progressy1,.progressy2,.progressy3,.progressy4,.progressy5,.progressy6,.progressy7{
   background:#CDCDCD;
   margin:4px 0 25px 0
 }
-.progressy1 p,.progressy2 p {
+.progressy1 p {
   background:#333;
-  width: 80%;
+  width: 50%;
+  height: 10px;
+}
+.progressy2 p{
+  background:#333;
+  width: 65%;
   height: 10px;
 }
 .progressy3 p{
 	background:#333;
-  width: 87%;
+  width: 60%;
   height: 10px;
 }
 .progressy4 p{
 	background:#333;
-  width: 80%;
+  width: 75%;
+  height: 10px;
+}
+.progressy5 p{
+  background:#333;
+  width: 85%;
   height: 10px;
 }
 .progressy6 p{
 	background:#333;
-  width: 60%;
+  width: 80%;
   height: 10px;
 }
 .progressy7 p{
 	background:#333;
-  width: 40%;
+  width: 75%;
   height: 10px;
 }
 .info{
